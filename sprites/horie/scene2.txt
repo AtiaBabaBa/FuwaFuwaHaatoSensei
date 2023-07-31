@@ -1,0 +1,14 @@
+{{{masterpiece}}}, {{{best quality}}}, {{ultra-detailed}}, {cinematic lighting}, {illustration}, 
+{beautiful detailed eyes}, {1girl}, upper body, looking at viewer, depth of field, {{light blue hair}}, 
+long hair, pink shirt, [high school skirt], [pink polo shirt], pink outfit, sprite, cute eyes, no bg, loli, 
+{{dark yellow eyes}}, {{character sprite}}, {{full body}}, hair down, {{shy}}, {{sitting on chair}}, sitting, 
+{{cover mouth with hand}}, {{full body posting}}, sexy girl, {{tsundere}}, {{{shy}}}, [[classroom]], 
+[[classroom chair]], [[dark classroom]], feet, {{{feet}}}, barefoot, {{{semisitting}}}, [[head at the top left]], 
+[[feet at the right]], {{{feet focus}}}, {{{character focus}}}, {{{sexy posting}}}, left-side lay back, [[left to right]], 
+{{feet near viewer}}, pink face, red face, [[cloth]], {{placing feet on the cloth}}, {{{hand on face}}}, touching face, 
+{{face touching}}
+
+lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, bad feet, half body, upper part
+worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name, 
+colored background, background, wrong eyeballs, weird eyes, waist feet, {{{out of frame}}}, bowtie, short hair, breast, 
+bad eyes, multiple persons, {{bad feet}}

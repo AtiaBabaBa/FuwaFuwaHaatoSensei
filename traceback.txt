@@ -1,0 +1,88 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/screens.rpy", line 364, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 364, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 377, in execute
+    use navigation
+  File "game/screens.rpy", line 292, in execute
+    screen navigation():
+  File "game/screens.rpy", line 292, in execute
+    screen navigation():
+  File "game/screens.rpy", line 294, in execute
+    vbox:
+  File "game/screens.rpy", line 302, in execute
+    if main_menu:
+  File "game/screens.rpy", line 306, in execute
+    if random_index < 8:
+  File "game/screens.rpy", line 309, in execute
+    imagebutton auto "gui/logo2.png" xpos 800 ypos 600 focus_mask
+  File "renpy/common/00defaults.rpy", line 139, in _imagemap_auto_function
+    rv = auto_param % variant
+TypeError: not all arguments converted during string formatting
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "renpy/ast.py", line 1111, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 1049, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+  File "renpy/ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3376, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs) # type: ignore
+  File "renpy/display/core.py", line 3803, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/screen.py", line 451, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3803, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/screen.py", line 462, in per_interact
+    self.update()
+  File "renpy/display/screen.py", line 653, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 364, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 364, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 377, in execute
+    use navigation
+  File "game/screens.rpy", line 292, in execute
+    screen navigation():
+  File "game/screens.rpy", line 292, in execute
+    screen navigation():
+  File "game/screens.rpy", line 294, in execute
+    vbox:
+  File "game/screens.rpy", line 302, in execute
+    if main_menu:
+  File "game/screens.rpy", line 306, in execute
+    if random_index < 8:
+  File "game/screens.rpy", line 309, in execute
+    imagebutton auto "gui/logo2.png" xpos 800 ypos 600 focus_mask
+  File "renpy/ui.py", line 952, in _imagebutton
+    idle = choice(idle, idle_image, "idle", required=True)
+  File "renpy/ui.py", line 940, in choice
+    rv = renpy.config.imagemap_auto_function(auto, name)
+  File "renpy/common/00defaults.rpy", line 139, in _imagemap_auto_function
+    rv = auto_param % variant
+TypeError: not all arguments converted during string formatting
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 7.5.0.22062402
+Fuwa Fuwa Haato Sensei 1.0
+Thu Jul 20 22:44:54 2023

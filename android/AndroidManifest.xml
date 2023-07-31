@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fuwa.versioni">
+
+    <!-- Add permissions here -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name="org.renpy.android.PythonActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="${APP_NAME}" />
+            <meta-data
+                android:name="android.app.arguments"
+                android:value="${ARGUMENTS}" />
+            <meta-data
+                android:name="android.app.label"
+                android:value="@string/app_name" />
+            <meta-data
+                android:name="android.app.icon"
+                android:resource="@drawable/ic_launcher" />
+            <meta-data
+                android:name="android.app.window_layout"
+                android:resource="@layout/main" />
+        </activity>
+    </application>
+</manifest>

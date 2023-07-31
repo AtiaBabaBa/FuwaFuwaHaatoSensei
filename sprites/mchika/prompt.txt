@@ -1,0 +1,5 @@
+{{{masterpiece}}}, {{{best quality}}}, {{ultra-detailed}}, {cinematic lighting}, {illustration}, 
+{beautiful detailed eyes}, {1girl}, upper body, looking at viewer, depth of field, blond hair, long hair, pink shirt,  [polo shirt], [high school skirt], [pink polo shirt], pink outfit, cute girl, sprite, sharp eyes, [no background], no bg, close eyes, [[[close eyes]]]
+
+lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, 
+worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name, colored background, opened eyes
